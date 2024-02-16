@@ -39,7 +39,7 @@ h1, h2 {
     text-decoration: none;
 }
 .navbar a:hover {
-    color: lightblue;
+    color: #3882F6;
 }
 .navbar .container {
     display: flex;
