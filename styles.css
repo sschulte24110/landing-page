@@ -53,3 +53,53 @@ h1, h2 {
 .navbar ul li {
     margin-left: 20px;
 }
+
+.header {
+    min-height: 400px;
+    background-color:#1F2937;
+}
+.header h1 {
+    font-size: 36px;
+    font-weight: bolder;
+}
+.header img {
+    max-width: 400px;
+}
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px
+}
+.header button {
+    font-family: 'Roboto', Tahoma, verdana, sans-serif;
+    background: #3882F6;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 20px;
+    margin-top: 10px
+}
+
+.photogallery {
+    background-color: #fff;
+}
+.photogallery .gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.photogallery h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 20px;
+}
+.gallery img {
+    max-width: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 8px
+}
+.gallery p {
+    color: #1F2937
+}
