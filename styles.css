@@ -20,18 +20,14 @@ body {
 h1, h2 {
     margin-bottom: 15px;
 }
-.container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 30px;
-}
+
 
 .navbar {
-    height: 60px;
+    height: 60px
 }
 .navbar .logo {
     color: #F9FAF8;
-    font-size: 24px;
+    font-size: 30px;
 }
 .navbar a {
     color: #e5e7eb;
@@ -45,7 +41,8 @@ h1, h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100%;
+    height: 100%; 
+    padding: 0 15px;
 }
 .navbar ul {
     display: flex;
@@ -54,8 +51,9 @@ h1, h2 {
     margin-left: 20px;
 }
 
+
 .header {
-    min-height: 400px;
+    min-height: 300px;
     background-color:#1F2937;
 }
 .header h1 {
@@ -69,7 +67,7 @@ h1, h2 {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 30px
+    padding: 80px;
 }
 .header button {
     font-family: 'Roboto', Tahoma, verdana, sans-serif;
@@ -80,20 +78,24 @@ h1, h2 {
     margin-top: 10px
 }
 
+
 .photogallery {
     background-color: #fff;
+    text-align: center;
+    padding: 40px
 }
 .photogallery .gallery {
     display: flex;
-    justify-content: space-between;
-    gap: 10px;
+    justify-content: center;
+    gap: 40px;
+}
+.photogallery .image {
+    max-width: 200px;
 }
 .photogallery h2 {
     font-size: 36px;
     color: #1F2937;
-    font-weight: bolder;
-    text-align: center;
-    padding-top: 20px;
+    font-weight: bolder; 
 }
 .gallery img {
     max-width: 200px;
@@ -102,4 +104,48 @@ h1, h2 {
 }
 .gallery p {
     color: #1F2937
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1F2937
+}
+.quotebox {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+.quotebox p {
+    font-weight: lighter;
+    font-style: italic;
+}
+.quotebox h4 {
+    align-self: flex-end;
+}
+
+.signupbox {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.signupbox .signup {
+    display: flex;
+    flex-direction:;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin: 75px;
+    background-color: #3882F6;
+    width: 800px;
+    height: 120px;
+    border-radius: 8px;
+}
+.buttoncontainer .button2 {
+    background:#3883f6;
+    color: #fff;
+    padding: 6px 30px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+
 }
