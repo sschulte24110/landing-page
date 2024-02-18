@@ -160,3 +160,10 @@ h1, h2 {
     background-color: #fff;
     color: #3882F6;
 }
+
+
+footer {
+    background-color: #1F2937;
+    padding: 20px;
+    text-align: center;
+}
